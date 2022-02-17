@@ -1,0 +1,62 @@
+\documentclass{article}
+
+% these packages let you do math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% we need these packages for fancy R tables
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% these packages play with the spacing/margins of the document. Uncomment the commands on lines 16 and 17 to see what they do.
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{parskip}
+%\doublespacing
+%\geometry{margin=1.5in}
+
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the \includegraphics command.
+\usepackage{graphicx}
+\graphicspath{ {../figures/} }
+
+% make some hyperlinks using the \href command
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+% set the author, title, and date of the document. \maketitle adds it to the document.
+\author{David Scolari}
+\title{My Paper on NLSY97 Incarceration Data}
+\date{Sping 2022}
+
+\begin{document}
+\maketitle
+
+\section{The First Section}
+
+\input{../tables/inc_table.tex}
+
+Table 1 shows per person incarceration days for each racial group in 2002. Mixed race is omitted from the analysis due to limited sample size. The table shows that for each racial group, males spend more days incarcerated per individual than females. However, the increase in incarceration time for males compared to females is several times larger for black males than other other race.
+
+This fact is highlighted by Figure 1, which shows the male to female ratio of days incarcerated for the three racial groups of interest. We see again that black males spent nearly 30 days incarcerated for every 1 day a black female spent incarcerated.  
+
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=.85\textwidth]{../figures/inc_bar.png}
+    \end{center}
+    \caption{Mean Number of Arrests in 2002 by Race and Gender (this is the LaTeX caption, not the ggplot title)}
+    \label{fig:graph}
+\end{figure}
+
+
+
+\input{../tables/inc_regtable.tex}
+
+\end{document}
