@@ -38,20 +38,26 @@
 \begin{document}
 \maketitle
 
-\section{The First Section}
+\section{Analysis}
 
-\input{../tables/inc_table.tex}
+
+To prepare this data, I used raw incarceration history data from the 2002 National Longitudinal Survey of Youths (NLSY). After aggregating the data to obtain total months of incarceration time for each race/gender group, I normalize by population to obtain per person incarceration days. 
 
 Table 1 shows per person incarceration days for each racial group in 2002. Mixed race is omitted from the analysis due to limited sample size. The table shows that for each racial group, males spend more days incarcerated per individual than females. However, the increase in incarceration time for males compared to females is several times larger for black males than other other race.
 
-This fact is highlighted by Figure 1, which shows the male to female ratio of days incarcerated for the three racial groups of interest. We see again that black males spent nearly 30 days incarcerated for every 1 day a black female spent incarcerated.  
+This fact is highlighted by Figure 1, which shows the male to female ratio of days incarcerated for the three racial groups of interest. We see again that black males spent nearly 30 days incarcerated for every 1 day a black female spent incarcerated. 
 
+Table 2 displays regression results that show how expected days in prison changes for different race and gender groups. The expectations obtained from the regression results are different from those displayed in Table 1 because the regression is not estimated with population normalized  incarceration days. However, the signs do match the patterns shown in Table 1 that Black males spent the most time incarcerated in 2002. 
+
+\section{Tables and Figures}
+
+\input{../tables/inc_table.tex}
 
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=.85\textwidth]{../figures/inc_bar.png}
     \end{center}
-    \caption{Mean Number of Arrests in 2002 by Race and Gender (this is the LaTeX caption, not the ggplot title)}
+    \caption{Ratio of Male/Female per Person Incarceration Time}
     \label{fig:graph}
 \end{figure}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 FEB 2022 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 FEB 2022 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -461,54 +461,50 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (../tables/inc_table.tex)
-
-LaTeX Warning: Reference `tab:summarystats' on page 1 undefined on input line 4
-5.
-
-<../figures/inc_bar.png, id=8, 2409.0pt x 1355.0625pt>
+<../figures/inc_bar.png, id=12, 2409.0pt x 1355.0625pt>
 File: ../figures/inc_bar.png Graphic file (type png)
 <use ../figures/inc_bar.png>
-Package pdftex.def Info: ../figures/inc_bar.png  used on input line 51.
+Package pdftex.def Info: ../figures/inc_bar.png  used on input line 58.
 (pdftex.def)             Requested size: 365.50655pt x 205.58705pt.
-(../tables/inc_regtable.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
  [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figu
-res/inc_bar.png>] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (../tab
+les/inc_regtable.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+ [2 <../figures/inc_bar.png>]
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./inc_paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `inc_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 683238C53F929A949D547D28F604E1CA;52.
+(rerunfilecheck)             Checksum: E083FD6BA43089E50328D7FE3ABFD423;96.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  7830 strings out of 480608
- 113693 string characters out of 5903631
- 392574 words of memory out of 5000000
- 23549 multiletter control sequences out of 15000+600000
- 540240 words of font info for 55 fonts, out of 8000000 for 9000
+ 113680 string characters out of 5903631
+ 390525 words of memory out of 5000000
+ 23548 multiletter control sequences out of 15000+600000
+ 539932 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,37p,796b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on inc_paper.pdf (2 pages, 163831 bytes).
+ 34i,11n,37p,796b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on inc_paper.pdf (3 pages, 158112 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 22 words of extra memory for PDF output out of 10000 (max. 10000000)
 
